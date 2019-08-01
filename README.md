@@ -35,5 +35,9 @@ Markdown (произносится маркдаун) - это облегчённ
 
 ## Ссылки
 \[Текст ссылки\]\(адрес ссылки\)
-\[GitHub\]\(https://github.com)
-[GitHub](https://github.com)
+
+\[GitHub\](https://github.com)
+
+[GitHub](https://github.com "Заголовок")
+
+
