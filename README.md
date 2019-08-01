@@ -1,2 +1,5 @@
-# damir-art.github.io
-Первый сайт на GitHub Pages
+# Язык Markdown
+
+Markdown (произносится маркдаун) - это облегчённый язык разметки.
+
+*курсив*
