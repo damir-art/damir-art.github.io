@@ -25,8 +25,9 @@ DOM &ndash; это API для JavaScript, чтобы иметь возможно
 ## Работаем с атрибутами
 **el...**
 * **getAttribute('href')** &ndash; получить значение атрибута `href`
+* **a.setAttribute('href', 'https://ya.ru')** &ndash; изменить значение атрибута
 * **attributes** &ndash; получить массив атрибутов элемента
-* **attributes[0].nodeValue** &ndash; получить значение первого атриьута в массиве
+* **attributes[0].nodeValue** &ndash; получить значение первого атрибута в массиве
 
 Заменяем текст ссылки на адрес ссылки
 
