@@ -16,4 +16,4 @@ DOM &ndash; это API для JavaScript, чтобы иметь возможно
 ## Доступ к содержимому элементов
 **el...**
 * **innerHTML** &ndash; получить всё что находится между тегами элемента: текст и дочерние элементы
-* **.innerHTML = '&lt;h2 style="color:green;">Hello!&lt;/h2>'** &ndash; заменить внутреннее содержимое
+* **innerHTML = '&lt;h2 style="color:green;">Hello!&lt;/h2>'** &ndash; заменить внутреннее содержимое
