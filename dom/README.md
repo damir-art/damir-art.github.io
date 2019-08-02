@@ -7,3 +7,4 @@ DOM &ndash; это API для JavaScript, чтобы иметь возможно
 `document.getElementById('id')` &ndash; получить доступ к элементу по его id, строка без `#`<br />
 `document.getElementsByClassName('class')` &ndash; получить доступ к элементам по их классу, строка без `.`, получаем псевдомассив<br />
 `document.getElementsByTagName('tag')` &ndash; получить элемент по названию его тега, строка без угловых скобок, получаем псевдомассив<br />
+`document.querySelector('tag || .class || #id')` &ndash; современный метод получения элементов, строка с именем тега, точками для классов и хешами для идентификаторов
