@@ -23,6 +23,11 @@ DOM &ndash; это API для JavaScript, чтобы иметь возможно
 * **value='Hello'** &ndash; заменить значение атрибута value (например текстового поля)
 
 ## Работаем с атрибутами
+**el...**
+* **getAttribute('href')** &ndash; получить значение атрибута `href`
+* **attributes** &ndash; получить массив атрибутов элемента
+* **attributes[0].nodeValue** &ndash; получить значение первого атриьута в массиве
+
 Заменяем текст ссылки на адрес ссылки
 
     var a = document.querySelector('a')
