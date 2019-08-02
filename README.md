@@ -1,4 +1,6 @@
-# Ссылки на репозитории damir-art
+# Ссылки на руководства и репозитории Damir-art
 
-[Markdown справочник](https://damir-art.github.io/markdown/)<br />
-[Visual Studio Code справочник](https://damir-art.github.io/visual-studio-code/)
+[Markdown](https://damir-art.github.io/markdown/) - справочник по тегам<br />
+[Visual Studio Code](https://damir-art.github.io/visual-studio-code/) - руководство для начинающих<br />
+[Photoshop](https://damir-art.github.io/photoshop/) - для HTML-верстальщиков<br />
+
