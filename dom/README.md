@@ -4,4 +4,4 @@ DOM &ndash; это API для JavaScript, чтобы иметь возможно
 
 **Доступ к элементам**<br />
 `var el = document...;` &ndash; всё что получаем, записываем в переменные<br />
-`document.getElementById('id')` &ndash; получить доступ к элементу по его id, строка без #sss<br />
+`document.getElementById('id')` &ndash; получить доступ к элементу по его id, строка без #<br />
