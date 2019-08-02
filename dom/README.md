@@ -1,4 +1,4 @@
-# DOM для JavaScript разработчика
+# DOM в JavaScript
 
 [Страница](https://damir-art.github.io/dom/)<br />
 [Репозиторий](https://github.com/damir-art/damir-art.github.io/tree/master/dom)
