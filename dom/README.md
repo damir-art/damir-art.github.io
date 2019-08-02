@@ -21,3 +21,8 @@ DOM &ndash; это API для JavaScript, чтобы иметь возможно
 * **textContent = 'Hello &lt;b>my&lt;/b> World!'** &ndash; заменить внутреннее содержимое, теги тоже будут текстом
 * **value** &ndash; получить значение атрибута value (например текстового поля)
 * **value='Hello'** &ndash; заменить значение атрибута value (например текстового поля)
+
+## Работаем с атрибутами
+// заменяем текст ссылки на адрес ссылки
+var a = document.querySelector('a')
+a.textContent = a.href;
