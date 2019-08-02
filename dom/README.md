@@ -33,3 +33,9 @@ DOM &ndash; это API для JavaScript, чтобы иметь возможно
 
     var a = document.querySelector('a')
     a.textContent = a.href;
+
+## Работаем с CSS классами
+**el.classList...** - объект отвечающий за работу с классами CSS
+* **add('box--red')** &ndash; добавляем класс к выбранному элементу
+* **remove('box--blue')** &ndash; удаляем класс у выбранного элемента
+* **contains('box--blue')** &ndash; проверяем, содержится ли класс у выбранного элемента
