@@ -24,5 +24,5 @@ DOM &ndash; это API для JavaScript, чтобы иметь возможно
 
 ## Работаем с атрибутами
 // заменяем текст ссылки на адрес ссылки
-var a = document.querySelector('a')
-a.textContent = a.href;
+    var a = document.querySelector('a')
+    a.textContent = a.href;
