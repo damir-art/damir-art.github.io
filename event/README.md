@@ -3,7 +3,7 @@
 [Страница](https://damir-art.github.io/event/)<br />
 [Репозиторий](https://github.com/damir-art/damir-art.github.io/tree/master/event)
 
-Все события https://developer.mozilla.org/ru/docs/Web/Events
+Все события https://developer.mozilla.org/ru/docs/Web/Events<br />
 События мыши https://developer.mozilla.org/ru/docs/Web/API/MouseEvent
 
 ### При клике на кнопку, меняется надпись у заголовка
