@@ -3,7 +3,8 @@
 [Страница](https://damir-art.github.io/event/)<br />
 [Репозиторий](https://github.com/damir-art/damir-art.github.io/tree/master/event)
 
-Все события в DOM https://developer.mozilla.org/ru/docs/Web/Events
+Все события https://developer.mozilla.org/ru/docs/Web/Events
+События мыши https://developer.mozilla.org/ru/docs/Web/API/MouseEvent
 
 ### При клике на кнопку, меняется надпись у заголовка
     var button = document.querySelector('button')
@@ -22,9 +23,7 @@
 ### При изменении текстового поля, меняется надпись у заголовка
     var h1 = document.querySelector('h1')
     var input = document.querySelector('input')
-    var button = document.querySelector('button')
     
-    function changeInput() {
+    input.addEventListener('input', function () {
         h1.textContent = input.value
-    }
-    input.addEventListener('input', changeInput)
+    })
