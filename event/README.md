@@ -18,3 +18,13 @@
 
     }
     button.addEventListener('click', buttonClick)
+
+### При изменении текстового поля, меняется надпись у заголовка
+    var h1 = document.querySelector('h1')
+    var input = document.querySelector('input')
+    var button = document.querySelector('button')
+    
+    function changeInput() {
+        h1.textContent = input.value
+    }
+    input.addEventListener('input', changeInput)
