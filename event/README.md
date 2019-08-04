@@ -64,5 +64,5 @@ el.addEventListener('event', func) - добавляет событие
         console.log(this.getAttribute('id')) // 2, 1, третий параметр true у addEventListener
     }, true)
     
-# Объект событие
+# Объект событие (event)
 Управляем или отменяем поведением по-умолчанию
