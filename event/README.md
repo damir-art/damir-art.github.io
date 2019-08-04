@@ -66,3 +66,16 @@ el.addEventListener('event', func) - добавляет событие
     
 # Объект событие (event)
 Управляем или отменяем поведением по-умолчанию
+event
+event.target
+event.target.nodeName и т.д.
+event.stopPropagation()
+
+Отменяем погружение-всплытие:
+
+    for(var i = 0; i < divs.length; i++ ) {
+        divs[i].addEventListener('click', function(event){
+            event.stopPropagation()
+            console.log(this.getAttribute('id'))
+        })
+    }
