@@ -98,7 +98,7 @@ el.addEventListener('event', func) - добавляет событие
     }
 
 ## Делегирование событий
-Делегирование событий - это оптимизация кода JavaScript. Добавляем прослушку событий не на каждый элемент, а на их обёртку.
+Делегирование событий - это оптимизация, улучшение производительности кода JavaScript. Добавляем прослушку событий не на каждый элемент, а на их обёртку.
 * getElementById() - самый быстрый метод при работе с DOM-деревом
 
 Не оптимизированный код
@@ -112,3 +112,19 @@ el.addEventListener('event', func) - добавляет событие
     }
 
 Оптимизированный код
+
+    // addEventListener висит только на одном объекте а не на множестве
+    document.getElementById('wrapper').addEventListener('click', function () {
+        var tagName = event.target.tagName.toLowerCase()
+
+        // меняем цвет по имени тега
+        if(tagName === 'p') {
+            event.target.style.color = 'green'
+        }
+        console.log(tagName)
+
+        // меняем цвет по имени класса
+        if(event.target.classList.contains('class_name')) {
+            event.target.style.color = 'orange'
+        }
+    })
