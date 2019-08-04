@@ -4,6 +4,7 @@
 [Репозиторий](https://github.com/damir-art/damir-art.github.io/tree/master/event)
 
 Все события https://developer.mozilla.org/ru/docs/Web/Events<br />
+Все API https://developer.mozilla.org/ru/docs/Web/API<br />
 API Event https://developer.mozilla.org/ru/docs/Web/API/Event<br />
 События мыши https://developer.mozilla.org/ru/docs/Web/API/MouseEvent
 
