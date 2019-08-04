@@ -95,3 +95,6 @@ el.addEventListener('event', func) - добавляет событие
 
         console.log(div.style.display)
     }
+
+## Делегирование событий
+вместо this лучше использовать event.target
