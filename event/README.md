@@ -66,10 +66,10 @@ el.addEventListener('event', func) - добавляет событие
     
 # Объект событие (event)
 Управляем или отменяем поведением по-умолчанию
-event
-event.target
-event.target.nodeName и т.д.
-event.stopPropagation()
+* event
+* event.target
+* event.target.nodeName и т.д.
+* event.stopPropagation()
 
 Отменяем погружение-всплытие:
 
