@@ -8,6 +8,8 @@
 API Event https://developer.mozilla.org/ru/docs/Web/API/Event<br />
 События мыши https://developer.mozilla.org/ru/docs/Web/API/MouseEvent
 
+el.addEventListener('event', func) - добавляет событие
+
 ### При клике на кнопку, меняется надпись у заголовка
     var button = document.querySelector('button')
     var h1 = document.querySelector('h1')
@@ -29,3 +31,19 @@ API Event https://developer.mozilla.org/ru/docs/Web/API/Event<br />
     input.addEventListener('input', function () {
         h1.textContent = input.value
     })
+
+### Используем ключевое слово this
+    h1.addEventListener('mouseenter', function () {
+       // h1.textContent = 'Mouseenter H1!'
+       console.log(this);
+       this.style.color = '#eee'
+       this.style.backgroundColor = '#111'
+    })
+    h1.addEventListener('mouseleave', function () {
+        // h1.textContent = 'Mouseleave H1!'
+        console.log(this);
+        this.style.color = '#111'
+        // this.style.backgroundColor = "#eee"
+    })
+
+## Всплытие и погружение событий
