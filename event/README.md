@@ -71,6 +71,7 @@ el.addEventListener('event', func) - добавляет событие
 * event.target.nodeName и т.д.
 * event.stopPropagation()
 * event.preventDefault()
+* вместо this лучше использовать event.target
 
 Отменяем погружение-всплытие:
 
@@ -97,4 +98,17 @@ el.addEventListener('event', func) - добавляет событие
     }
 
 ## Делегирование событий
-вместо this лучше использовать event.target
+Делегирование событий - это оптимизация кода JavaScript. Добавляем прослушку событий не на каждый элемент, а на их обёртку.
+* getElementById() - самый быстрый метод при работе с DOM-деревом
+
+Не оптимизированный код
+
+    var ps = document.querySelectorAll('p')
+
+    for(var i = 0; i < ps.length; i++ ) {
+        ps[i].addEventListener('click', function(event){
+            event.target.style.color = 'red'
+        })
+    }
+
+Оптимизированный код
