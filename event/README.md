@@ -62,5 +62,5 @@ el.addEventListener('event', func) - добавляет событие
     // меняем порядок с 2, 1 на 1, 2
     divs[i].addEventListener('click', function(){
         console.log(this.getAttribute('id')) // 2, 1
-    }, **true**)
+    }, <b>true</b>)
     
