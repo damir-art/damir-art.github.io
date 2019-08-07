@@ -3,5 +3,5 @@
 ## Атрибуты тега script: `async` и `defer`
 У атрибутов нет значений.
 
-  script async
-  script defer
+    &lt;script async ...
+    &lt;script defer ...
