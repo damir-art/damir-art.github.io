@@ -10,3 +10,44 @@
 `defer` &ndash; тоже самое что и `async` только, если `defer` на странице будет несколько то последние не загрузятся до тех пор пока не прогрузятся первые `defer`.
 
 ## Модальные окна в JavaScript
+    // alert()
+    document.querySelector('#alert').addEventListener('click', function () {
+        alert('Hello')
+    })
+
+    // confirm()
+    document.querySelector('#confirm').addEventListener('click', function () {
+        var decision = confirm('OK or CANCEL?')
+    
+        console.log(decision)
+
+        if (decision) {
+            console.log('OK')
+        } else {
+            console.log('CANCEL')
+        }
+    })
+
+    // prompt()
+    document.querySelector('#prompt').addEventListener('click', function () {
+        // Сохраняем в переменную, строковое значение введённое пользователем
+        var color = prompt('Введите цвет:', 'Значение по-умолчанию...')
+
+        console.log(color)
+
+        if (color === 'Белый') {
+            console.log('Вы ввели белый')
+        } else {
+            console.log('Вы ввели не белый')
+        }
+    })
+
+    // выводит ошибку
+    throw new Error('Выводим ошибку!') // останавливает выполнение кода
+
+    // console...
+    console.log('Выводим лог программы!')
+    console.warn('Выводим предупреждение!')
+    console.info('Выводим информацию!')
+    console.error('Выводим ошибку!')
+
