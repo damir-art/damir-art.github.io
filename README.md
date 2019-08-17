@@ -9,5 +9,4 @@
 
 ### JavaScript
 [JavaScript](https://damir-art.github.io/javascript/) - учебник JavaScript<br />
-[События](https://damir-art.github.io/event/) - работа с событиями в JavaScript<br />
 [Node.js](https://damir-art.github.io/nodejs/) - работа с Node.js<br />
